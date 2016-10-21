@@ -1,0 +1,166 @@
+i) # of Files = 17
+ii) # of .csv Files = 10; # of .py files = 6
+iii) Word and line counts in csv (Lines/Words/Characters)
+    1018    1018   30117 mailing_results_0.csv
+    1018    1018   30127 mailing_results_1.csv
+    1018    1018   30200 mailing_results_2.csv
+    1017    1017   30127 mailing_results_3.csv
+    1019    1023   30115 mailing_results_4.csv
+    1017    1017   30424 mailing_results_5.csv
+    1017    1017   30185 mailing_results_6.csv
+    1017    1017   30420 mailing_results_7.csv
+    1017    1017   29801 mailing_results_8.csv
+    1017    1017   30122 mailing_results_9.csv
+   10175   10179  301638 total
+iii) Word and line counts in py (Lines/Words/Characters)
+     241     854    9848 basic_visualizer.py
+     203     607    8069 brieAuction.py
+      29      70     668 client.py
+     180     609    6358 oldserver.py
+     329    1063   13132 player.py
+     301    1012   10794 server.py
+    1283    4215   48869 total
+v) - 1.) .py files with receive():
+brieAuction.py
+client.py
+player.py
+v) - 2.) .py files with receive(): + line number
+brieAuction.py:52:def receive():
+brieAuction.py:80:assert( receive()=='Name?') 
+brieAuction.py:82:info=[int(v) for v in receive().split(' ')]
+brieAuction.py:198:    upd=receive()
+client.py:6:def receive():
+client.py:20:    print(receive())
+client.py:22:    print(receive())
+client.py:25:        inc = receive()
+player.py:279:def receive():
+player.py:308:    assert( receive()=='Name?') 
+player.py:310:    info=[int(v) for v in receive().split(' ')]
+player.py:318:        upd=receive()
+vi) - 1.) First 3 lines of a csv
+==> mailing_results_0.csv <==
+"2.0,0.0,1.0,0,0.49,0.51"
+"6.0,0.0,0.0,1,0.65,0.35"
+"20.0,0.0,1.0,0,0.5,0.5"
+
+==> mailing_results_1.csv <==
+"3.0,0.0,0.0,1,0.64,0.36"
+"10.0,1.0,1.0,1,0.46,0.54"
+"14.0,0.0,0.0,1,0.5,0.5"
+
+==> mailing_results_2.csv <==
+"1.0,1.0,1.0,1,0.42,0.58"
+"4.0,0.0,0.0,1,0.67,0.33"
+"26.0,0.0,1.0,0,0.48,0.52"
+
+==> mailing_results_3.csv <==
+"13.0,0.0,0.0,1,0.65,0.35"
+"25.0,0.0,1.0,0,0.46,0.54"
+"44.0,0.0,0.0,1,0.65,0.35"
+
+==> mailing_results_4.csv <==
+"0.0,0.0,0.0,1,0.65,0.35"
+"12.0,0.0,0.0,1,0.61,0.39"
+"24.0,0.0,1.0,0,0.49,0.51"
+
+==> mailing_results_5.csv <==
+"9.0,0.0,0.0,1,0.51,0.49"
+"18.0,0.0,0.0,1,0.53,0.47"
+"22.0,0.0,1.0,0,0.46,0.54"
+
+==> mailing_results_6.csv <==
+"16.0,0.0,0.0,1,0.63,0.37"
+"21.0,0.0,0.0,1,0.5,0.5"
+"34.0,0.0,0.0,1,0.63,0.37"
+
+==> mailing_results_7.csv <==
+"5.0,0.0,1.0,0,0.47,0.53"
+"7.0,0.0,1.0,0,0.36,0.64"
+"8.0,0.0,1.0,0,0.45,0.55"
+
+==> mailing_results_8.csv <==
+"31.0,0.0,0.0,1,0.63,0.37"
+"36.0,0.0,0.0,1,0.5,0.5"
+"40.0,0.0,0.0,1,0.5,0.5"
+
+==> mailing_results_9.csv <==
+"17.0,0.0,1.0,0,0.49,0.51"
+"27.0,0.0,1.0,0,0.42,0.58"
+"32.0,1.0,1.0,1,0.33,0.67"
+vi) - 2.) Last 2 lines of a csv
+==> mailing_results_0.csv <==
+"10130.0,1.0,1.0,1,0.38,0.62"
+"10141.0,1.0,1.0,1,0.49,0.51"
+
+==> mailing_results_1.csv <==
+"10151.0,1.0,1.0,1,0.37,0.63"
+"10159.0,1.0,0.0,0,0.52,0.48"
+
+==> mailing_results_2.csv <==
+"10161.0,1.0,1.0,1,0.42,0.58"
+"10164.0,1.0,1.0,1,0.33,0.67"
+
+==> mailing_results_3.csv <==
+"10150.0,1.0,1.0,1,0.36,0.64"
+"10158.0,1.0,1.0,1,0.36,0.64"
+
+==> mailing_results_4.csv <==
+"10153.0,1.0,1.0,1,0.37,0.63"
+"10156.0,1.0,1.0,1,0.5,0.5"
+
+==> mailing_results_5.csv <==
+"10170.0,1.0,0.0,0,0.53,0.47"
+"10172.0,1.0,0.0,0,0.53,0.47"
+
+==> mailing_results_6.csv <==
+"10162.0,1.0,0.0,0,0.63,0.37"
+"10166.0,1.0,1.0,1,0.36,0.64"
+
+==> mailing_results_7.csv <==
+"10154.0,1.0,1.0,1,0.36,0.64"
+"10157.0,1.0,0.0,0,0.51,0.49"
+
+==> mailing_results_8.csv <==
+"10163.0,1.0,1.0,1,0.5,0.5"
+"10167.0,1.0,0.0,0,0.64,0.36"
+
+==> mailing_results_9.csv <==
+"10165.0,1.0,1.0,1,0.49,0.51"
+"10171.0,1.0,1.0,1,0.42,0.58"
+vii) foo and bar in any capitalization
+mailing_results_4.csv:FoO
+mailing_results_4.csv:Lets go to a BaR
+
+Append all the commands used: 
+
+cd "/Users/eduardofierro/Desktop"
+
+curl -sS http://cims.nyu.edu/~ts2387/dsga1007/lab1.zip  > lab1.zip
+
+mkdir lab5_gitfile
+
+unzip lab1.zip -d ./lab5_gitfile
+
+rm lab1.zip
+
+ls | wc -l
+
+ls *.csv | wc -l
+
+ls *.py | wc -l
+
+wc *.py >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt 
+
+wc *.csv >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt 
+
+cat client.py 
+
+grep "receive()" *.py -l >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt 
+
+grep "receive()" *.py -nr >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt 
+
+head -3 *.csv >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt 
+
+tail -2 *.csv >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt
+
+grep "foo\|bar" -i -w *.csv  >> /Users/eduardofierro/Google\ Drive/PrimerSemestre/Programming/Lab/161021_Lab5/dsga1007_lab/lab5/this_is_a_cool_name/B_eff254_tasks.txt 
